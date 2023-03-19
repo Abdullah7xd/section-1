@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+        nav {
+            border: 1px solid red;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            padding: 5px;
+        }
+        .nav-links{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .nav-links p{
+            margin: 0 20px;
+        }
+        .main-img{
+            height: 400px;
+            padding: 0 200px;
+        }
+        header{
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            margin-top: 50px;
+        }
+        .main-title{
+            font-size: 70px;
+            margin: 0;
+        }
+        .hero-content{
+            padding: 0 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .container{
+            width: 1100px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .card{
+            padding: 30px;
+            border: 1px solid red;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h3>logo</h3>
+        </div>
+        <div class="nav-links">
+            <p>Home</p>
+            <p>Login</p>
+            <p>signup</p>
+            <p>contact</p>
+        </div>
+    </nav>
+    <header>
+        <div class="hero-img">
+            <img src="img1.webp" alt="" class="main-img">
+        </div>
+        <div class="hero-content">
+            <h1>Hello I am Abdullah</h1>
+            <p class="main-title">Full Stack Developer</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae placeat nulla modi! Eveniet exercitationem, soluta nisi quia autem excepturi consequatur totam rerum repellendus ipsa dignissimos suscipit ipsum dolorem voluptates minima molestiae repellat placeat tempore fuga. Eius error perferendis hic iste laborum non itaque vel, debitis maiores modi aliquam natus veritatis?
+            </p>
+            <button>About Me</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <img src="img1.webp" alt="" style="width: 100%;">
+                <h4>remmm</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis sit nesciunt aliquam quis ipsum obcaecati amet expedita optio veniam?
+                </p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="card">
+                <img src="img1.webp" alt="" style="width: 100%;">
+                <h4>remmm</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis sit nesciunt aliquam quis ipsum obcaecati amet expedita optio veniam?
+                </p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="card">
+                <img src="img1.webp" alt="" style="width: 100%;">
+                <h4>remmm</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis sit nesciunt aliquam quis ipsum obcaecati amet expedita optio veniam?
+                </p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
